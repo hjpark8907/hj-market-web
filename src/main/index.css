@@ -20,12 +20,23 @@
 }
 .product-card {
   width: 180px;
-  height: 300px;
+  height: 330px;
   margin-right: 10px;
   margin-bottom: 10px;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 12px;
   overflow: hidden;
+  position: relative;
+}
+
+.product-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffffaa;
+  pointer-events: none;
 }
 
 .product-img {
@@ -71,6 +82,7 @@
 }
 
 .product-date {
+  display: flex;
   font-size: 12px;
   color: rgb(136, 136, 136);
 }
