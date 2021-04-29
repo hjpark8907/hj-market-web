@@ -56,3 +56,7 @@
 #purchase-button {
   margin-top: 8px;
 }
+
+#description-box {
+  min-height: 150px;
+}

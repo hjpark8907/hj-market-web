@@ -14,7 +14,7 @@ function App() {
       <div id="header">
         <div id="header-area">
           <Link to="/">
-            <img src="images/icons/logo2.png" />
+            <img src="/images/icons/logo2.png" />
           </Link>
           <Button size="large"
             onClick={function () {
